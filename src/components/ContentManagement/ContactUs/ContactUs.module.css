@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+.main h2 {
+  text-align: center;
+  font-family: var(--poppins-font);
+  font-size: 1.7rem;
+  font-weight: 400;
+  width: 100%;
+  margin: 25px 0;
+}
+
+.main p {
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: var(--poppins-font);
+  font-weight: 400;
+  width: 100%;
+}
+.textField {
+  width: 100%;
+}
+.main * {
+  font-family: var(--poppins-font);
+}
+.main button{
+    margin: 2rem 0;
+    background: #F8CD46;
+    border: 0;
+    color: white;
+    font-family: var(--poppins-font);
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}

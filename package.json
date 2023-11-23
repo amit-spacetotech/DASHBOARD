@@ -1,0 +1,53 @@
+{
+  "name": "HomeShare",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.14",
+    "@mui/styled-engine-sc": "^5.11.11",
+    "@mui/styles": "^5.11.13",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "aws-sdk": "^2.1360.0",
+    "axios": "^0.19.2",
+    "firebase": "^10.0.0",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-data-table-component": "^7.5.2",
+    "react-dom": "^18.2.0",
+    "react-google-charts": "^4.0.0",
+    "react-quill": "^2.0.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "rich-text-editor": "^7.1.7",
+    "styled-components": "^5.3.9"
+  },
+  "scripts": {
+    "start": "PORT=3001 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

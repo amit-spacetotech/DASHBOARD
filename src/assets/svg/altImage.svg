@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="575.635" height="375.5" viewBox="0 0 575.635 375.5">
+  <defs>
+    <filter id="Rectangle_9146" x="0" y="0" width="575.635" height="375.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_165270" data-name="Group 165270" transform="translate(-357 -176.5)">
+    <g transform="matrix(1, 0, 0, 1, 357, 176.5)" filter="url(#Rectangle_9146)">
+      <rect id="Rectangle_9146-2" data-name="Rectangle 9146" width="557.635" height="357.5" rx="20" transform="translate(9 6)" fill="#f6f1e9"/>
+    </g>
+    <path id="Icon_awesome-image" data-name="Icon awesome-image" d="M110.725,96.135H11.454A11.454,11.454,0,0,1,0,84.68V15.954A11.454,11.454,0,0,1,11.454,4.5h99.271A11.454,11.454,0,0,1,122.18,15.954V84.68A11.454,11.454,0,0,1,110.725,96.135Zm-84-78.271A13.363,13.363,0,1,0,40.09,31.227,13.363,13.363,0,0,0,26.727,17.863Zm-11.454,63h91.635V54.135L86.023,33.252a2.864,2.864,0,0,0-4.05,0L49.636,65.59,36.388,52.342a2.864,2.864,0,0,0-4.05,0L15.272,69.408Z" transform="translate(583.727 310.934)" fill="#b3b3b3"/>
+  </g>
+</svg>

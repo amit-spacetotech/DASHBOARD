@@ -1,0 +1,12 @@
+export const GET_PRIVACY = "GET_PRIVACY";
+export const GET_PRICING = "GET_PRICING";
+export const SET_PRIVACY = "SET_PRIVACY";
+export const GET_TERMS = "GET_TERMS";
+export const SET_TERMS = "SET_TERMS";
+export const GET_FAQ = "GET_FAQ";
+export const GET_STORY = "GET_STORY";
+export const GET_CONTACT = "GET_CONTACT";
+export const GET_TESTIMONIAL = "GET_TESTIMONIAL";
+export const GET_BLOGS = "GET_BLOGS";
+export const GET_BLOGS_PAGES = "GET_BLOGS_PAGES";
+export const GET_CONTACT_US = "GET_CONTACT_US";

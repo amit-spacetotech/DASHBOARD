@@ -1,0 +1,128 @@
+.container {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  box-shadow: 0px 3px 6px #2e2e2e29;
+  border-radius: 0px 0px 50px 0px;
+}
+.container::-webkit-scrollbar {
+  width: 0px;
+}
+.container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  width: 0px;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  width: 0px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  justify-content: center;
+}
+.header h1 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  flex: 1;
+  margin-left: 10px;
+}
+
+.navItems {
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navItem svg {
+  color: #888888;
+}
+.activeNavItem svg {
+  color: #323232;
+  position: relative;
+  left: -7px;
+}
+.activeNavItem p {
+  color: #323232 !important;
+  position: relative;
+  font-weight: 600 !important;
+  left: -7px;
+}
+.navItem,
+.activeNavItem {
+  display: flex;
+  width: calc(100% - 40px);
+  padding: 8px 25px;
+  align-items: center;
+  color: #fff;
+  margin: 6px 0px;
+  text-decoration: none;
+}
+.activeNavItem {
+  border-left: solid 15px #f8cd46;
+}
+
+.navItem p,
+.activeNavItem p {
+  margin: 0px;
+  margin-left: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #888888;
+}
+
+/* .navItem:hover,
+  .navItem:hover p {
+    cursor: pointer;
+    color: var(--primary-color);
+    text-decoration: none;
+  } */
+/* .activeNavItem:hover {
+    cursor: pointer;
+    color: #370D6F;
+    text-decoration: none;
+  }
+  .activeNavItem:hover p {
+    color: #370D6F;
+  }
+  .activeNavItem {
+    color: #370D6F;
+    background-color: #FBF9FF;;
+  } */
+.menuButton {
+  display: none !important;
+}
+/* @media only screen and (max-width: 1450px) {
+  .navItem,
+  .activeNavItem {
+    width: calc(100% - 30px);
+  }
+} */
+@media only screen and (max-width: 900px) {
+  .mobileNav {
+    width: 300px;
+  }
+  /* .navItem,
+  .activeNavItem {
+    margin: 6px auto;
+  } */
+  .menuButton {
+    display: flex !important;
+    position: absolute !important;
+    z-index: 1001 !important;
+    height: var(--top-bar-height) !important;
+    margin-left: 10px !important;
+  }
+}

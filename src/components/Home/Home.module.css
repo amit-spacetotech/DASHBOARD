@@ -1,0 +1,148 @@
+.container {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-top: 2.5rem;
+  background-color: #fdfbf7;
+}
+.container h2 {
+  font-weight: 500;
+  color: black;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  margin: 1rem 0;
+}
+
+.upperSection {
+  padding-left: 22px;
+}
+
+.belowSection {
+  width: 96%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.2rem !important;
+  margin: 0 auto;
+}
+.belowLeft {
+  width: 70%;
+  height: 100%;
+}
+.belowLeftContent {
+  background: white;
+  width: 100%;
+  border-radius: 20px;
+  aspect-ratio: 3/2;
+  max-height: 350px;
+}
+.leftCardSection {
+  width: 32%;
+  height: 100%;
+}
+.rightCardSection {
+  width: 63% !important;
+}
+
+.leftCardSection img {
+  width: 100%;
+  box-shadow: 0px 3px 6px #00000014;
+  height: 100%;
+  border-radius: 20px;
+}
+.belowRight {
+  width: 27%;
+  padding-bottom: 5px;
+}
+.rightCard {
+  padding: 8px;
+  margin-right: 10px;
+  width: 95%;
+  background: white;
+  height: 140px;
+  box-shadow: 0px 3px 6px #00000014;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.rightCard img {
+  object-fit: cover;
+}
+.rightCard p {
+  color: #767676;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.rightCardSection svg {
+  width: 1rem;
+}
+.rightCardSection h4 {
+  font-size: 0.85rem;
+  line-height: 1.25rem;
+}
+.rightCardSection h5 {
+  background: #f6f1e9 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  width: max-content;
+  padding: 4px 15px;
+  margin-top: 0.3rem;
+  margin-bottom: 0.4rem;
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+.flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: scroll;
+  justify-content: space-between;
+}
+.flex::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  padding: 10px 10px;
+  background: white 0% 0% no-repeat padding-box;
+  box-shadow: 0 3px 6px #00000014;
+  border-radius: 20px;
+  aspect-ratio: 3/2;
+  width: 18%;
+  margin-right: 15px;
+  min-width: 200px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.card h2,
+.card h3 {
+  color: #707070;
+  opacity: 0.24;
+  font-weight: 500;
+}
+
+.card h2 {
+  font-size: 1.45rem !important;
+  line-height: 2.1rem !important;
+  margin: 0 !important;
+  font-weight: 600;
+}
+.card h3 {
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+}
+
+.card h1 {
+  color: #777676;
+  font-size: 3rem;
+  line-height: 3.4rem;
+  margin-top: 0.3rem;
+  font-weight: 600;
+}

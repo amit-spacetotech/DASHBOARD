@@ -1,0 +1,2 @@
+export const GET_MOVE_INS = "GET_MOVE_INS";
+// export const GET_CUSTOMER_REPORT = "GET_CUSTOMER_REPORT";

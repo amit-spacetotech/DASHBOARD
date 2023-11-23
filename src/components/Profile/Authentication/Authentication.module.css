@@ -1,0 +1,16 @@
+.content {
+  width: 38%;
+}
+.textField {
+  margin: 10px 0 !important;
+}
+.content input {
+  font-family: var(--poppins-font);
+  font-size: 0.9rem;
+  color: #000000;
+}
+.content input::placeholder {
+  font-family: var(--poppins-font);
+  font-size: 0.9rem;
+  color: #000000;
+}

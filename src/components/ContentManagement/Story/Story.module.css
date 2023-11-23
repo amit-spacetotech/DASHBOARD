@@ -1,0 +1,28 @@
+.media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  margin: 1rem 0;
+  padding: 0.4rem 0;
+  border-bottom: solid 1px gray;
+}
+.media p {
+  font-size: 0.9rem;
+  opacity: 0.3;
+}
+.icon {
+  cursor: pointer;
+}
+.uploadedMedia {
+  max-width: 70px;
+  border-radius: 10px;
+  aspect-ratio: 1;
+}
+.imgop {
+  background-image: url("https://homesharebucket.s3.ap-south-1.amazonaws.com/Img4627222.322668638.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  border: solid 1px black;
+}

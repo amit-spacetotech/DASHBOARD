@@ -1,0 +1,83 @@
+.appContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: white;
+  overflow-y: hidden;
+}
+.business {
+  display: flex;
+  margin-right: 2rem;
+}
+.businessPoper,
+.listContainer {
+  z-index: 10;
+}
+.header {
+  position: fixed;
+  top: 0;
+  padding: 1rem 1rem;
+  box-shadow: rgba(227, 229, 231, 0.972) 0px 4px 8px;
+  z-index: 10;
+  width: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h2 {
+  font-size: 1.2rem;
+}
+.listItem p {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+.navContainer {
+  width: var(--nav-width);
+  height: 100%;
+  padding-right: 0.1rem;
+  background: #fdfbf7;
+  background: white;
+  min-height: 100vh;
+}
+.mainContainer {
+  width: calc(100vw - var(--nav-width));
+  overflow-y: scroll;
+  padding-top: 2.5rem;
+}
+.mainContainer::-webkit-scrollbar {
+  display: none;
+}
+.mainContainer strong {
+  font-weight: 700 !important;
+}
+
+.mainContainer::-webkit-scrollbar {
+  width: 14px;
+  border-radius: 2px;
+}
+
+.mainContainer::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.mainContainer::-webkit-scrollbar-thumb {
+  background-color: white;
+  outline: 1px solid slategrey;
+  border-radius: 4px;
+  width: 6px;
+}
+.iSEfTL {
+  z-index: 20 !important;
+}
+.rdt_TableHead {
+  z-index: 30 !important;
+}
+.TableHead {
+  z-index: 30 !important;
+}
+@media only screen and (max-width: 1450px) {
+  .mainContainer {
+    width: calc(100vw - var(--nav-width));
+  }
+}
